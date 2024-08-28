@@ -189,15 +189,15 @@ section .title::after{
 
 
 /* home section styling */
-.home{
-    display: flex;
-    background: url("/pro.jpg") no-repeat center;
-    height: 100vh;
-    color: #fff;
-    min-height: 500px;
-    background-size: cover;
-    background-attachment: fixed;
-    font-family: 'Ubuntu', sans-serif;
+.home {
+    display: flex; /* Use flexbox for layout */
+    background: url("/pro.jpg") no-repeat center; /* Set background image */
+    height: 100vh; /* Full viewport height */
+    color: #fff; /* White text color */
+    min-height: 500px; /* Minimum height for smaller screens */
+    background-size: cover; /* Cover the entire area with the image */
+    background-attachment: fixed; /* Fixed background for scrolling effect */
+    font-family: 'Ubuntu', sans-serif; /* Set font family */
 }
 .home .max-width{
   width: 100%;
