@@ -191,7 +191,7 @@ section .title::after{
 /* home section styling */
 .home {
     display: flex; /* Use flexbox for layout */
-    background: url("/pro.jpg") no-repeat center; /* Set background image */
+    background: url("./images/pro.jpg") no-repeat center; /* Set background image */
     height: 100vh; /* Full viewport height */
     color: #fff; /* White text color */
     min-height: 500px; /* Minimum height for smaller screens */
