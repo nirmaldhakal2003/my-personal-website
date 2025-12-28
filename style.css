@@ -562,6 +562,11 @@ section .title::after {
 
 
 /* contact section styling */
+.contact {
+    background-color: #191919;
+    color: white;
+}
+
 .contact .title::after {
     content: "get in touch";
 }
@@ -604,7 +609,7 @@ section .title::after {
 }
 
 .contact .contact-content .info .sub-title {
-    color: #333;
+    color: #cfcdcd;
 }
 
 .contact .right form .fields {
@@ -656,7 +661,7 @@ section .title::after {
 }
 
 .right form .button-area button {
-    color: #fff;
+    color: #ffffff;
     display: block;
     width: 160px !important;
     height: 45px;
@@ -672,15 +677,16 @@ section .title::after {
 }
 
 .right form .button-area button:hover {
-    color: crimson;
-    background: none;
+    color: rgb(0, 0, 0);
+    background: rgb(255, 255, 255);
+    box-shadow: 1px 5px 30px whitesmoke;
 }
 
 /* footer section styling */
 footer {
-    background: #111;
+    background: #ffffff;
     padding: 15px 23px;
-    color: #fff;
+    color: #000000;
     text-align: center;
 }
 
